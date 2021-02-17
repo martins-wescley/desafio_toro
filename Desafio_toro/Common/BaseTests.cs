@@ -37,8 +37,8 @@ namespace Desafio_toro.Common
         [AfterScenario]
         public void FinalizarTeste()
         {
-            //driver.Quit();
-            //driver = null;
+            driver.Quit();
+            driver = null;
         }
     }
 }
